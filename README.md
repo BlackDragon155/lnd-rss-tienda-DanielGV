@@ -1,1 +1,0 @@
-# lnd-rss-tienda-DanielGV
