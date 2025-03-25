@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
-    <title>TecnoGaming - Podcast</title>
-    <link>https://tuusuario.github.io/web-res/podcast/index.html</link>
-    <description>Podcast sobre tecnología y videojuegos</description>
-    <language>es-es</language>
+    <title>Podcast DaniTech</title>
+    <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/</link>
+    <description>Tecnología y anime con DanielGV</description>
     
     <item>
-      <title>Episodio 1: Lanzamientos más esperados del año</title>
-      <link>https://tuusuario.github.io/web-res/podcast/index.html</link>
-      <description>Analizamos los lanzamientos de videojuegos más esperados para este año.</description>
-      <pubDate>Fri, 20 Mar 2025 18:00:00 GMT</pubDate>
-      <enclosure url="https://ejemplo.com/podcasts/ep1.mp3" length="10240000" type="audio/mpeg"/>
-    </item>
-
-    <item>
-      <title>Episodio 2: Hardware gaming del futuro</title>
-      <link>https://tuusuario.github.io/web-res/podcast/index.html</link>
-      <description>Hablamos sobre las tendencias en hardware gaming para los próximos años.</description>
-      <pubDate>Fri, 13 Mar 2025 18:00:00 GMT</pubDate>
-      <enclosure url="https://ejemplo.com/podcasts/ep2.mp3" length="9800000" type="audio/mpeg"/>
+      <title>Ep1: Avances en IA 2025</title>
+      <enclosure url="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/episodios/ep1.mp3" type="audio/mpeg"/>
+      <pubDate>Mon, 25 Mar 2025 12:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>
