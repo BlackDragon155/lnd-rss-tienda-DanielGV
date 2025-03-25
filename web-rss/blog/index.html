@@ -3,22 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <title>Blog - TecnoGaming</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Blog</h1>
+        <h1><a href="../index.html">TecnoGaming</a></h1>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">☰</label>
         <nav>
             <ul>
                 <li><a href="../index.html">Inicio</a></li>
+                <li><a href="index.html">Blog</a></li>
                 <li><a href="../podcast/index.html">Podcast</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h2>Últimos Artículos</h2>
-        <ul>
-          
-            
+        <h2>Artículos recientes</h2>
+        
+        <article>
+            <img src="images/post1-thumb.jpg" alt="Hardware gaming">
+            <h3><a href="posts/post1.html">Mejor hardware 2025</a></h3>
+            <p>Las mejores configuraciones para jugar.</p>
+        </article>
+        
+        <article>
+            <img src="images/post2-thumb.jpg" alt="IA en juegos">
+            <h3><a href="posts/post2.html">IA en videojuegos</a></h3>
+            <p>Cómo está cambiando la industria.</p>
+        </article>
+    </main>
+
+    <footer>
+        <a href="../feed/res.xml">Suscríbete al Blog</a>
+        <a href="../feed/podcast.xml">Suscríbete al Podcast</a>
+        <img src="../images/valid-rss.png" alt="RSS válido">
+    </footer>
+</body>
+</html>

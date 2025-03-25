@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>TecnoGaming - Blog</title>
+    <link>https://tuusuario.github.io/web-res/blog/index.html</link>
+    <description>Últimos artículos sobre tecnología y gaming</description>
+    <language>es-es</language>
+    
+    <item>
+      <title>Las mejores configuraciones para gaming en 2025</title>
+      <link>https://tuusuario.github.io/web-res/blog/posts/post1.html</link>
+      <description>Analizamos las configuraciones de hardware más potentes para disfrutar de los últimos juegos.</description>
+      <pubDate>Sat, 15 Mar 2025 10:00:00 GMT</pubDate>
+    </item>
+
+    <item>
+      <title>Novedades en inteligencia artificial para videojuegos</title>
+      <link>https://tuusuario.github.io/web-res/blog/posts/post2.html</link>
+      <description>Cómo la IA está revolucionando la industria del gaming.</description>
+      <pubDate>Mon, 10 Mar 2025 09:30:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
