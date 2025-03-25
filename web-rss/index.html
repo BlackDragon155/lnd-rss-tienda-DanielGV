@@ -3,14 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Sitio Web</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>TecnoGaming - Inicio</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenidos a Mi Sitio</h1>
+        <h1>TecnoGaming</h1>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">☰</label>
         <nav>
             <ul>
+                <li><a href="index.html">Inicio</a></li>
                 <li><a href="blog/index.html">Blog</a></li>
                 <li><a href="podcast/index.html">Podcast</a></li>
             </ul>
@@ -18,12 +21,39 @@
     </header>
 
     <main>
-        <p>Explora nuestro blog y escucha nuestros podcasts.</p>
+        <section>
+            <h2>Últimas novedades</h2>
+            <div class="card">
+                <img src="images/gaming-news.jpg" alt="Noticias gaming">
+                <h3>Lanzamientos 2025</h3>
+                <p>Los juegos más esperados del año.</p>
+                <a href="blog/posts/post1.html">Leer más</a>
+            </div>
+        </section>
+
+        <section>
+            <table border="1">
+                <caption>Hardware recomendado</caption>
+                <tr>
+                    <th>Componente</th>
+                    <th>Recomendación</th>
+                </tr>
+                <tr>
+                    <td>GPU</td>
+                    <td>RTX 4070 o superior</td>
+                </tr>
+                <tr>
+                    <td>CPU</td>
+                    <td>Ryzen 7 7800X3D</td>
+                </tr>
+            </table>
+        </section>
     </main>
 
     <footer>
-        <a href="podcast/feed.xml">RSS Podcast</a> |
-        <a href="opml.xml">Suscribirse (OPML)</a>
+        <a href="feed/res.xml">Suscríbete al Blog</a>
+        <a href="feed/podcast.xml">Suscríbete al Podcast</a>
+        <img src="images/valid-rss.png" alt="RSS válido">
     </footer>
 </body>
 </html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Suscripciones TecnoGaming</title>
+    <dateCreated>Mon, 24 Mar 2025 10:00:00 GMT</dateCreated>
+  </head>
+  <body>
+    <outline text="TecnoGaming" title="TecnoGaming">
+      <outline type="rss" text="Blog TecnoGaming" title="Blog TecnoGaming" 
+               xmlUrl="https://tuusuario.github.io/web-res/feed/res.xml" 
+               htmlUrl="https://tuusuario.github.io/web-res/blog/index.html"/>
+      <outline type="rss" text="Podcast TecnoGaming" title="Podcast TecnoGaming" 
+               xmlUrl="https://tuusuario.github.io/web-res/feed/podcast.xml" 
+               htmlUrl="https://tuusuario.github.io/web-res/podcast/index.html"/>
+    </outline>
+  </body>
+</opml>
