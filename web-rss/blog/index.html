@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog - TecnoGaming</title>
+    <title>AnimeDaniGV | Blog</title>
     <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <header>
-        <h1><a href="../index.html">TecnoGaming</a></h1>
+        <div class="brand">
+            <h1><a href="../index.html">DaniTech</a></h1>
+            <p>AnimeDaniGV</p>
+        </div>
         <input type="checkbox" id="menu-toggle">
         <label for="menu-toggle" class="hamburger">☰</label>
         <nav>
@@ -21,25 +24,33 @@
     </header>
 
     <main>
-        <h2>Artículos recientes</h2>
+        <h2>Últimos artículos</h2>
         
-        <article>
-            <img src="images/post1-thumb.jpg" alt="Hardware gaming">
-            <h3><a href="posts/post1.html">Mejor hardware 2025</a></h3>
-            <p>Las mejores configuraciones para jugar.</p>
+        <article class="post-summary">
+            <img src="images/jujutsu-thumb.jpg" alt="Yuuta Okkotsu">
+            <div>
+                <h3><a href="posts/post1.html">Yuuta Okkotsu: Poder oculto</a></h3>
+                <p class="meta">Publicado: 25/03/2025</p>
+                <p>Análisis del personaje más roto de Jujutsu Kaisen 0.</p>
+            </div>
         </article>
-        
-        <article>
-            <img src="images/post2-thumb.jpg" alt="IA en juegos">
-            <h3><a href="posts/post2.html">IA en videojuegos</a></h3>
-            <p>Cómo está cambiando la industria.</p>
+
+        <article class="post-summary">
+            <img src="images/pokemon-thumb.jpg" alt="Pokémon">
+            <div>
+                <h3><a href="posts/post2.html">Nuevos Pokémon 2025</a></h3>
+                <p class="meta">Publicado: 22/03/2025</p>
+                <p>Filtraciones de la próxima generación.</p>
+            </div>
         </article>
     </main>
 
     <footer>
-        <a href="../feed/res.xml">Suscríbete al Blog</a>
-        <a href="../feed/podcast.xml">Suscríbete al Podcast</a>
-        <img src="../images/valid-rss.png" alt="RSS válido">
+        <div class="subscription">
+            <a href="../feed/rss.xml">RSS del Sitio</a>
+            <a href="../feed/podcast.xml">Podcast RSS</a>
+        </div>
+        <p>© 2025 DaniTech</p>
     </footer>
 </body>
 </html>
