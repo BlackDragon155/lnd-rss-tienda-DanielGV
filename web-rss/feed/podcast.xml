@@ -4,11 +4,31 @@
     <title>Podcast DaniTech</title>
     <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/</link>
     <description>Tecnología y anime con DanielGV</description>
+    <language>es</language>
+    <copyright>© 2025 DaniTech</copyright>
+    <lastBuildDate>Mon, 25 Mar 2025 12:00:00 GMT</lastBuildDate>
+    <pubDate>Mon, 25 Mar 2025 12:00:00 GMT</pubDate>
+    <ttl>1440</ttl>
+    <itunes:author>DanielGV</itunes:author>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+    <itunes:owner>
+      <itunes:name>DanielGV</itunes:name>
+      <itunes:email>contacto@danitech.example</itunes:email>
+    </itunes:owner>
+    <itunes:category text="Technology"/>
+    <itunes:category text="Leisure"/>
     
     <item>
       <title>Ep1: Avances en IA 2025</title>
-      <enclosure url="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/" type="audio/mpeg"/>
+      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/</link>
+      <description>Analizamos los últimos avances en inteligencia artificial para 2025 y cómo afectarán a la industria tecnológica.</description>
+      <enclosure url="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/episodios/ep1.mp3" type="audio/mpeg" length="5242880"/>
+      <guid isPermaLink="false">danitech-podcast-ep1</guid>
       <pubDate>Mon, 25 Mar 2025 12:00:00 GMT</pubDate>
+      <itunes:duration>45:00</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>1</itunes:episode>
     </item>
   </channel>
 </rss>

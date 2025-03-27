@@ -8,36 +8,39 @@
 </head>
 <body>
     <header>
-        <div class="brand">
-            <h1><a href="../index.html">DaniTech</a></h1>
-            <p>Podcast Tecnología y Anime</p>
+        <div class="container">
+            <div id="branding">
+                <h1><a href="../index.html">DaniTech</a></h1>
+                <p>Podcast Tecnología y Anime</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="../blog/index.html">Blog</a></li>
+                    <li class="current"><a href="index.html">Podcast</a></li>
+                </ul>
+            </nav>
         </div>
-        <input type="checkbox" id="menu-toggle">
-        <label for="menu-toggle" class="hamburger">☰</label>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../blog/index.html">Blog</a></li>
-                <li><a href="index.html">Podcast</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <main>
-        <h2>Episodios recientes</h2>
+    <div class="container">
+        <h2>Episodios Recientes</h2>
         
-        <article class="episode">
+        <article>
             <h3>Ep1: Avances en IA 2025</h3>
+            <p class="meta">Publicado: 25/03/2025 | Duración: 45 min</p>
+            
+            <!-- Imagen del episodio -->
+            <img src="../images/podcast-ia.jpg" alt="Avances en IA" class="post-image">
+            
             <audio controls>
                 <source src="episodios/ep1.mp3" type="audio/mpeg">
             </audio>
+            <p>Analizamos los últimos avances en inteligencia artificial para 2025.</p>
         </article>
-    </main>
+    </div>
 
     <footer>
-        <div class="subscription">
-            <a href="../feed/podcast.xml">Suscríbete al Podcast</a>
-        </div>
         <p>© 2025 DaniTech</p>
     </footer>
 </body>

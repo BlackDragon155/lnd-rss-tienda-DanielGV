@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>DaniTech | Tecnología y Anime</title>
+    <title>Blog DaniTech | Tecnología y Anime</title>
     <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/</link>
     <description>Contenido sobre tecnología y análisis de anime</description>
+    <language>es</language>
+    <pubDate>Tue, 25 Mar 2025 10:00:00 GMT</pubDate>
+    <lastBuildDate>Tue, 25 Mar 2025 10:00:00 GMT</lastBuildDate>
+    <docs>https://www.rssboard.org/rss-specification</docs>
+    <generator>DaniTech CMS</generator>
     
     <item>
       <title>Yuuta Okkotsu: Poder oculto</title>
-      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/posts/post1.html</link>
+      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/post/post1.html</link>
       <description>Análisis del personaje más poderoso de Jujutsu Kaisen 0</description>
       <pubDate>Tue, 25 Mar 2025 10:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/post/post1.html</guid>
+      <category>Anime</category>
+      <category>Jujutsu Kaisen</category>
     </item>
     
     <item>
@@ -17,6 +25,9 @@
       <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/post/post2.html</link>
       <description>Filtraciones de la próxima generación Pokémon</description>
       <pubDate>Mon, 24 Mar 2025 09:30:00 GMT</pubDate>
+      <guid isPermaLink="true">https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/post/post2.html</guid>
+      <category>Videojuegos</category>
+      <category>Pokémon</category>
     </item>
   </channel>
 </rss>

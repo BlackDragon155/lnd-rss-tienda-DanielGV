@@ -8,40 +8,36 @@
 </head>
 <body>
     <header>
-        <div class="brand">
-            <h1>DaniTech</h1>
-            <p>Tecnología • Anime • Innovación</p>
+        <div class="container">
+            <div id="branding">
+                <h1><a href="index.html">DaniTech</a></h1>
+                <p>Tecnología • Anime • Innovación</p>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Inicio</a></li>
+                    <li><a href="blog/index.html">Blog</a></li>
+                    <li><a href="podcast/index.html">Podcast</a></li>
+                </ul>
+            </nav>
         </div>
-        <input type="checkbox" id="menu-toggle">
-        <label for="menu-toggle" class="hamburger">☰</label>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="blog/index.html">AnimeDaniGV</a></li>
-                <li><a href="podcast/index.html">Podcast</a></li>
-            </ul>
-        </nav>
     </header>
 
-    <main>
-        <section class="welcome">
+    <div class="container">
+        <article>
             <h2>Bienvenido a DaniTech</h2>
             <p>Tu fuente de tecnología y análisis de anime.</p>
-            <div class="highlights">
-                <article>
-                    <h3><a href="blog/post/post1.html">Destacado: Yuuta Okkotsu</a></h3>
-                    <p>Análisis del personaje de Jujutsu Kaisen.</p>
-                </article>
-            </div>
-        </section>
-    </main>
+            
+            <!-- Espacio para imagen destacada -->
+            <img src="images/portada.jpg" alt="Portada principal" class="post-image">
+            
+            <h3>Artículo Destacado</h3>
+            <p><a href="blog/post/post1.html">Yuuta Okkotsu: Poder oculto</a> - Análisis del personaje más poderoso de Jujutsu Kaisen 0.</p>
+        </article>
+    </div>
 
     <footer>
-        <div class="subscription">
-            <a href="feed/rss.xml">Suscríbete vía RSS</a>
-            <a href="feed/feeds.opml">Importar OPML</a>
-        </div>
-        <p>© 2025 DaniTech | <a href="feed/podcast.xml">Podcast RSS</a></p>
+        <p>© 2025 DaniTech</p>
     </footer>
 </body>
 </html>
