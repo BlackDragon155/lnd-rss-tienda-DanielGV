@@ -3,7 +3,7 @@
   <channel>
     <title>Podcast DaniTech</title>
     <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/</link>
-    <description>Tecnología y anime con DanielGV</description>
+    <description>Tecnología y anime con DanielGV. Discusiones sobre los últimos avances tecnológicos y análisis de anime.</description>
     <language>es</language>
     <copyright>© 2025 DaniTech</copyright>
     <lastBuildDate>Mon, 25 Mar 2025 12:00:00 GMT</lastBuildDate>
@@ -16,6 +16,7 @@
       <itunes:name>DanielGV</itunes:name>
       <itunes:email>contacto@danitech.example</itunes:email>
     </itunes:owner>
+    <itunes:image href="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcast-cover.jpg"/>
     <itunes:category text="Technology"/>
     <itunes:category text="Leisure"/>
     
@@ -29,6 +30,18 @@
       <itunes:duration>45:00</itunes:duration>
       <itunes:episodeType>full</itunes:episodeType>
       <itunes:episode>1</itunes:episode>
+    </item>
+    
+    <item>
+      <title>Ep2: Temporada de Anime 2025</title>
+      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/</link>
+      <description>Repasamos los estrenos más esperados de la temporada de anime de primavera 2025.</description>
+      <enclosure url="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/episodios/ep2.mp3" type="audio/mpeg" length="4194304"/>
+      <guid isPermaLink="false">danitech-podcast-ep2</guid>
+      <pubDate>Mon, 18 Mar 2025 12:00:00 GMT</pubDate>
+      <itunes:duration>38:15</itunes:duration>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:episode>2</itunes:episode>
     </item>
   </channel>
 </rss>
