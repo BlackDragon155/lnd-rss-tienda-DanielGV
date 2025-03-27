@@ -1,22 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
   <channel>
-    <title>DaniTech | Tecnología y Anime</title>
+    <title>Blog DaniTech | Tecnología y Anime</title>
     <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/</link>
-    <description>Contenido sobre tecnología y análisis de anime</description>
+    <description>Contenido sobre tecnología y análisis de anime. Blog personal de DanielGV.</description>
+    <language>es-es</language>
+    <pubDate>Tue, 25 Mar 2025 10:00:00 GMT</pubDate>
+    <lastBuildDate>Tue, 25 Mar 2025 10:00:00 GMT</lastBuildDate>
+    <generator>DaniTech CMS</generator>
     
     <item>
       <title>Yuuta Okkotsu: Poder oculto</title>
-      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/posts/post1.html</link>
-      <description>Análisis del personaje más poderoso de Jujutsu Kaisen 0</description>
+      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/post/post1.html</link>
+      <description>Análisis detallado del personaje más poderoso de Jujutsu Kaisen 0 y su evolución en la película.</description>
       <pubDate>Tue, 25 Mar 2025 10:00:00 GMT</pubDate>
+      <guid isPermaLink="true">https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/post/post1.html</guid>
+      <category>Anime</category>
+      <category>Jujutsu Kaisen</category>
     </item>
     
     <item>
       <title>Nuevos Pokémon 2025</title>
-      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/posts/post2.html</link>
-      <description>Filtraciones de la próxima generación Pokémon</description>
+      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/post/post2.html</link>
+      <description>Filtraciones y análisis de la próxima generación Pokémon que se lanzará en 2025.</description>
       <pubDate>Mon, 24 Mar 2025 09:30:00 GMT</pubDate>
+      <guid isPermaLink="true">https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/post/post2.html</guid>
+      <category>Videojuegos</category>
+      <category>Pokémon</category>
+    </item>
+    
+    <item>
+      <title>Solo Leveling: Análisis del Anime</title>
+      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/post/post3.html</link>
+      <description>Comparativa entre el webtoon original y la adaptación animada de Solo Leveling.</description>
+      <pubDate>Wed, 18 Mar 2025 14:15:00 GMT</pubDate>
+      <guid isPermaLink="true">https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/post/post3.html</guid>
+      <category>Anime</category>
+      <category>Solo Leveling</category>
     </item>
   </channel>
 </rss>
