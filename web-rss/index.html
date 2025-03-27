@@ -3,27 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Sitio Web</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>DaniTech | Tecnología y Anime</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Bienvenidos a Mi Sitio</h1>
-        <nav>
-            <ul>
-                <li><a href="blog/index.html">Blog</a></li>
-                <li><a href="podcast/index.html">Podcast</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div id="branding">
+                <h1><a href="index.html">DaniTech</a></h1>
+                <p>Tecnología • Anime • Innovación</p>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Inicio</a></li>
+                    <li><a href="blog/index.html">Blog</a></li>
+                    <li><a href="podcast/index.html">Podcast</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
-        <p>Explora nuestro blog y escucha nuestros podcasts.</p>
-    </main>
+    <div class="container">
+        <article>
+            <h2>Bienvenido a DaniTech</h2>
+            <p>Tu fuente de tecnología y análisis de anime.</p>
+            
+            <!-- Espacio para imagen destacada -->
+            <img src="images/portada.jpg" alt="Portada principal" class="post-image">
+            
+            <h3>Artículo Destacado</h3>
+            <p><a href="blog/post/post1.html">Yuuta Okkotsu: Poder oculto</a> - Análisis del personaje más poderoso de Jujutsu Kaisen 0.</p>
+        </article>
+    </div>
 
     <footer>
-        <a href="podcast/feed.xml">RSS Podcast</a> |
-        <a href="opml.xml">Suscribirse (OPML)</a>
+        <p>© 2025 DaniTech</p>
     </footer>
 </body>
 </html>

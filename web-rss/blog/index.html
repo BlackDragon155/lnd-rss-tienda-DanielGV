@@ -3,22 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
-    <link rel="stylesheet" href="../assets/css/styles.css">
+    <title>Blog | DaniTech</title>
+    <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
     <header>
-        <h1>Blog</h1>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="../podcast/index.html">Podcast</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div id="branding">
+                <h1><a href="../index.html">DaniTech</a></h1>
+                <p>AnimeDaniGV</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li class="current"><a href="index.html">Blog</a></li>
+                    <li><a href="../podcast/index.html">Podcast</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <main>
+    <div class="container">
         <h2>Últimos Artículos</h2>
-        <ul>
-          
+        
+        <article>
+            <h3><a href="post/post1.html">Yuuta Okkotsu: Poder oculto</a></h3>
+            <p class="meta">Publicado: 25/03/2025</p>
             
+            <!-- Miniatura del artículo -->
+            <img src="images/yuuta-full.jpg" alt="Yuuta Okkotsu" class="post-image">
+            
+            <p>Análisis del personaje más poderoso de Jujutsu Kaisen 0.</p>
+            <a href="post/post1.html" class="read-more">Leer más →</a>
+        </article>
+
+        <article>
+            <h3><a href="post/post2.html">Nuevos Pokémon 2025</a></h3>
+            <p class="meta">Publicado: 22/03/2025</p>
+            
+            <!-- Miniatura del artículo -->
+            <img src="images/nuevos-pokemon.jpg" alt="Nuevos Pokémon" class="post-image">
+            
+            <p>Filtraciones de la próxima generación Pokémon.</p>
+            <a href="post/post2.html" class="read-more">Leer más →</a>
+        </article>
+    </div>
+
+    <footer>
+        <p>© 2025 DaniTech</p>
+    </footer>
+</body>
+</html>
