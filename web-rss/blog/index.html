@@ -12,15 +12,6 @@
             <h1><a href="../index.html">DaniTech</a></h1>
             <p>AnimeDaniGV</p>
         </div>
-        <input type="checkbox" id="menu-toggle">
-        <label for="menu-toggle" class="hamburger">☰</label>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="index.html" class="active">Blog</a></li>
-                <li><a href="../podcast/index.html">Podcast</a></li>
-            </ul>
-        </nav>
     </header>
 
     <main class="blog-container">
@@ -29,7 +20,7 @@
         
         <div class="posts-grid">
             <article class="post-card">
-                <img src="images/jujutsu-thumb.jpg" alt="Jujutsu Kaisen">
+                <img src="images/jujutsu-full.jpeg" alt="Jujutsu Kaisen">
                 <div class="post-content">
                     <h2><a href="posts/post1.html">Yuuta Okkotsu: Poder oculto</a></h2>
                     <p class="meta">Publicado: 25/03/2025</p>
@@ -39,7 +30,7 @@
             </article>
 
             <article class="post-card">
-                <img src="images/pokemon-thumb.jpg" alt="Pokémon">
+                <img src="images/pokemon-full.jpg" alt="Pokémon">
                 <div class="post-content">
                     <h2><a href="posts/post2.html">Nuevos Pokémon 2025</a></h2>
                     <p class="meta">Publicado: 22/03/2025</p>
@@ -62,14 +53,22 @@
 
     <footer>
         <div class="footer-links">
+            <a href="../feed/podcast.xml" class="podcast-btn">
+                <img src="../images/podcasticon.png" alt="Podcast">
+                Suscríbete al Podcast
+            </a>
             <a href="../feed/rss.xml" class="rss-btn">
-                <img src="../images/rss-icon.png" alt="RSS">
+                <img src="../images/blogicon.png" alt="Blog">
                 Suscríbete al Blog
             </a>
-            <a href="../feed/podcast.xml" class="podcast-btn">
-                <img src="../images/podcast-icon.png" alt="Podcast">
-                Podcast RSS
+            <a href="../feed/feeds.opml" class="opml-btn">
+                <img src="../images/opml-icon.png" alt="OPML">
+                Importar OPML
             </a>
+        </div>
+        <div class="footer-icons">
+            <img src="../images/valid-rss.png" alt="Valid RSS" class="validation-icon">
+            <img src="../images/valid-opml.png" alt="Valid OPML" class="validation-icon">
         </div>
         <div class="copyright">
             <p>© 2025 DaniTech</p>
