@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" 
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:media="http://search.yahoo.com/mrss/">
   <channel>
     <title>DaniTech | Tecnología y Anime</title>
     <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/</link>
@@ -8,34 +11,55 @@
     <copyright>© 2025 DaniTech</copyright>
     <atom:link href="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/feed/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <image>
+      <url>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/blogicon.png</url>
+      <title>DaniTech Blog</title>
+      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/</link>
+    </image>
+
     <item>
       <title>Yuuta Okkotsu: Análisis completo</title>
-      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/posts/post1.html</link>
+      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/post/post1.html</link>
       <description>Análisis detallado del personaje más poderoso de Jujutsu Kaisen 0 y sus habilidades únicas.</description>
       <pubDate>Tue, 25 Mar 2025 10:00:00 GMT</pubDate>
       <guid isPermaLink="false">dtech-post-001</guid>
       <category>Anime</category>
       <category>Jujutsu Kaisen</category>
+      <media:content url="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/jujutsu-full.jpg" medium="image" type="image/jpeg"/>
+      <content:encoded><![CDATA[
+        <img src="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/jujutsu-full.jpg" alt="Yuuta Okkotsu" width="800"/>
+        <p>Análisis detallado del personaje más poderoso de Jujutsu Kaisen 0 y sus habilidades únicas.</p>
+      ]]></content:encoded>
     </item>
     
     <item>
       <title>Nuevos Pokémon 2025: Filtraciones</title>
-      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/posts/post2.html</link>
+      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/post/post2.html</link>
       <description>Toda la información sobre la próxima generación de Pokémon y sus novedades.</description>
       <pubDate>Mon, 24 Mar 2025 09:30:00 GMT</pubDate>
       <guid isPermaLink="false">dtech-post-002</guid>
       <category>Pokémon</category>
       <category>Videojuegos</category>
+      <media:content url="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/pokemon-full.jpg" medium="image" type="image/jpeg"/>
+      <content:encoded><![CDATA[
+        <img src="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/pokemon-full.jpg" alt="Nuevos Pokémon 2025" width="800"/>
+        <p>Toda la información sobre la próxima generación de Pokémon y sus novedades.</p>
+      ]]></content:encoded>
     </item>
     
     <item>
       <title>Solo Leveling: Review del anime</title>
-      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/posts/post3.html</link>
+      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/post/post3.html</link>
       <description>Análisis completo de la adaptación animada del popular webtoon coreano.</description>
       <pubDate>Thu, 20 Mar 2025 14:00:00 GMT</pubDate>
       <guid isPermaLink="false">dtech-post-003</guid>
       <category>Anime</category>
       <category>Solo Leveling</category>
+      <media:content url="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/solo-leveling-full.jpg" medium="image" type="image/jpeg"/>
+      <content:encoded><![CDATA[
+        <img src="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/solo-leveling-full.jpg" alt="Solo Leveling" width="800"/>
+        <p>Análisis completo de la adaptación animada del popular webtoon coreano.</p>
+      ]]></content:encoded>
     </item>
   </channel>
 </rss>
