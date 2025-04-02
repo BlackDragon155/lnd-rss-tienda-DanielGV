@@ -2,10 +2,10 @@
 <rss version="2.0" 
      xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
      xmlns:content="http://purl.org/rss/1.0/modules/content/"
-     xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
-     xmlns:spotify="http://www.spotify.com/ns/rss">
+     xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Podcast DaniTech</title>
+    <atom:link href="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/feed/podcast.xml" rel="self" type="application/rss+xml"/>
     <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/</link>
     <description>Conversaciones sobre tecnología, anime y cultura geek</description>
     <language>es-es</language>
@@ -14,16 +14,16 @@
     <itunes:author>DanielGV</itunes:author>
     <itunes:owner>
       <itunes:name>DanielGV</itunes:name>
-      <itunes:email>tucorreo@example.com</itunes:email>
+      <itunes:email>danielgonzalez@alumno.ieselrincon.es</itunes:email>
     </itunes:owner>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <itunes:image href="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcast-cover.jpg"/>
+    <itunes:image href="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcast.png"/>
     <itunes:category text="Technology"/>
     <itunes:category text="Leisure"/>
     
     <image>
-      <url>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcast-cover.jpg</url>
+      <url>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcast.png</url>
       <title>Podcast DaniTech</title>
       <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/</link>
     </image>
@@ -32,7 +32,7 @@
       <title>Episodio 1: Avances en IA 2025</title>
       <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/</link>
       <description>Analizamos las últimas novedades en inteligencia artificial y su impacto en la tecnología.</description>
-      <enclosure url="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/episodios/ep1.mp3" length="38000000" type="audio/mpeg"/>
+      <enclosure url="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio1.mp3" length="38000000" type="audio/mpeg"/>
       <guid isPermaLink="false">dtech-pod-001</guid>
       <pubDate>Tue, 25 Mar 2025 18:00:00 GMT</pubDate>
       <itunes:duration>42:15</itunes:duration>
@@ -42,9 +42,6 @@
       <content:encoded><![CDATA[
         <img src="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcasticon.png" alt="Portada Episodio 1"/>
         <p>Analizamos las últimas novedades en inteligencia artificial y su impacto en la tecnología.</p>
-        <audio controls>
-          <source src="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio1.mp3" type="audio/mpeg">
-        </audio>
       ]]></content:encoded>
     </item>
 
@@ -58,13 +55,10 @@
       <itunes:duration>48:30</itunes:duration>
       <itunes:episode>2</itunes:episode>
       <itunes:season>1</itunes:season>
-      <itunes:image href="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/ep2-cover.jpg"/>
+      <itunes:image href="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcasticon.png"/>
       <content:encoded><![CDATA[
         <img src="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcasticon.png" alt="Portada Episodio 2"/>
         <p>Review de los animes más esperados de la temporada.</p>
-        <audio controls>
-          <source src="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio2.mp3" type="audio/mpeg">
-        </audio>
       ]]></content:encoded>
     </item>
   </channel>

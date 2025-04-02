@@ -5,20 +5,25 @@
     <dateCreated>Tue, 25 Mar 2025 12:00:00 GMT</dateCreated>
     <ownerName>DanielGV</ownerName>
     <ownerEmail>danielgonzalezvelez@alumno.ieselrincon.es</ownerEmail>
+    <docs>https://github.com/blackdragon155/lnd-rss-tienda-DanielGV</docs>
   </head>
   <body>
     <outline text="DaniTech Podcast" 
+             title="DaniTech Podcast"
              type="rss" 
              xmlUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/feed/podcast.xml"
              htmlUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/"
-             imageUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcasticon.png"
-             description="Podcast sobre tecnología y anime"/>
+             description="Podcast sobre tecnología y anime">
+      <outline type="html" text="Cover Image" url="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcasticon.png"/>
+    </outline>
              
     <outline text="DaniTech Blog" 
+             title="DaniTech Blog"
              type="rss" 
              xmlUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/feed/rss.xml"
              htmlUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/"
-             imageUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/blogicon.png"
-             description="Blog sobre tecnología y cultura geek"/>
+             description="Blog sobre tecnología y cultura geek">
+      <outline type="html" text="Cover Image" url="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/blogicon.png"/>
+    </outline>
   </body>
 </opml>
