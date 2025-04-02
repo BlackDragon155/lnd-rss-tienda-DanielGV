@@ -8,36 +8,76 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <div id="branding">
-                <h1><a href="index.html">DaniTech</a></h1>
-                <p>Tecnología • Anime • Innovación</p>
-            </div>
-            <nav>
-                <ul>
-                    <li class="current"><a href="index.html">Inicio</a></li>
-                    <li><a href="blog/index.html">Blog</a></li>
-                    <li><a href="podcast/index.html">Podcast</a></li>
-                </ul>
-            </nav>
+        <div class="brand">
+            <h1>DaniTech</h1>
+            <p>Tecnología • Anime • Innovación</p>
         </div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">☰</label>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="blog/index.html">AnimeDaniGV</a></li>
+                <li><a href="podcast/index.html">Podcast</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <div class="container">
-        <article>
-            <h2>Bienvenido a DaniTech</h2>
-            <p>Tu fuente de tecnología y análisis de anime.</p>
-            
-            <!-- Espacio para imagen destacada -->
-            <img src="images/portada.jpg" alt="Portada principal" class="post-image">
-            
-            <h3>Artículo Destacado</h3>
-            <p><a href="blog/post/post1.html">Yuuta Okkotsu: Poder oculto</a> - Análisis del personaje más poderoso de Jujutsu Kaisen 0.</p>
-        </article>
+    <div class="banner">
+        <img src="images/banner.jpg" alt="DaniTech - Tecnología y Anime">
+        <div class="banner-text">
+            <h2>Explora el mundo geek</h2>
+            <p>Lo mejor de tecnología y anime en un solo lugar</p>
+        </div>
     </div>
 
+    <main>
+        <section class="highlights">
+            <h2>Destacados</h2>
+            <div class="grid-container">
+                <article class="card">
+                    <img src="images/tech-ai.jpg" alt="IA">
+                    <h3>Últimas en Tecnología</h3>
+                    <p>Descubre los avances en IA y hardware gaming.</p>
+                    <a href="#" class="btn">Leer más</a>
+                </article>
+                
+                <article class="card">
+                    <img src="blog/images/jujutsu-thumb.jpg" alt="Anime">
+                    <h3>Anime del Mes</h3>
+                    <p>Análisis de Jujutsu Kaisen y más.</p>
+                    <a href="blog/index.html" class="btn">Ver artículos</a>
+                </article>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <h2>¡No te pierdas nada!</h2>
+            <form>
+                <input type="email" placeholder="Tu correo electrónico">
+                <button type="submit" class="btn">Suscribirse</button>
+            </form>
+        </section>
+    </main>
+
     <footer>
-        <p>© 2025 DaniTech</p>
+        <div class="footer-links">
+            <a href="feed/rss.xml" class="rss-btn">
+                <img src="images/rss-icon.png" alt="RSS">
+                Suscríbete vía RSS
+            </a>
+            <a href="feed/feeds.opml" class="opml-btn">
+                <img src="images/opml-icon.png" alt="OPML">
+                Importar OPML
+            </a>
+            <a href="feed/podcast.xml" class="podcast-btn">
+                <img src="images/podcast-icon.png" alt="Podcast">
+                Podcast RSS
+            </a>
+        </div>
+        <div class="copyright">
+            <p>© 2025 DaniTech | Todos los derechos reservados</p>
+        </div>
     </footer>
 </body>
 </html>
