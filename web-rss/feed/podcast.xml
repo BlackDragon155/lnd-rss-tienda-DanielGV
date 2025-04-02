@@ -13,7 +13,7 @@
     </itunes:owner>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <itunes:image href="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcast-cover.jpg"/>
+    <itunes:image href="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcast.png"/>
     <itunes:category text="Technology"/>
     <itunes:category text="Leisure"/>
     
@@ -21,7 +21,7 @@
       <title>Episodio 1: Avances en IA 2025</title>
       <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/#ep1</link>
       <description>Analizamos las últimas novedades en inteligencia artificial y su impacto en la tecnología.</description>
-      <enclosure url="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/episodios/ep1.mp3" length="38000000" type="audio/mpeg"/>
+      <enclosure url="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio1.mp3" length="38000000" type="audio/mpeg"/>
       <guid isPermaLink="false">dtech-pod-001</guid>
       <pubDate>Tue, 25 Mar 2025 18:00:00 GMT</pubDate>
       <itunes:duration>42:15</itunes:duration>
@@ -33,7 +33,7 @@
       <title>Episodio 2: Anime Spring 2025</title>
       <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/#ep2</link>
       <description>Review de los animes más esperados de la temporada.</description>
-      <enclosure url="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/episodios/ep2.mp3" length="45000000" type="audio/mpeg"/>
+      <enclosure url="https://ichigar.github.io/clases/lnd/recursos/ut5/podcast/episodios/episodio2.mp3" length="45000000" type="audio/mpeg"/>
       <guid isPermaLink="false">dtech-pod-002</guid>
       <pubDate>Tue, 18 Mar 2025 18:00:00 GMT</pubDate>
       <itunes:duration>48:30</itunes:duration>
