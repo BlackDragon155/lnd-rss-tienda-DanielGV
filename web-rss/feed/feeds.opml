@@ -2,10 +2,23 @@
 <opml version="2.0">
   <head>
     <title>Suscripciones DaniTech</title>
-    <dateCreated>Mon, 24 Mar 2025 12:00:00 GMT</dateCreated>
+    <dateCreated>Tue, 25 Mar 2025 12:00:00 GMT</dateCreated>
+    <ownerName>DanielGV</ownerName>
+    <ownerEmail>danielgonzalezvelez@alumno.ieselrincon.es</ownerEmail>
   </head>
   <body>
-    <outline text="DaniTech Podcast" type="rss" xmlUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/feed/podcast.xml"/>
-    <outline text="DaniTech Blog" type="rss" xmlUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/feed/rss.xml"/>
+    <outline text="DaniTech Podcast" 
+             type="rss" 
+             xmlUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/feed/podcast.xml"
+             htmlUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/"
+             imageUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcasticon.png"
+             description="Podcast sobre tecnología y anime"/>
+             
+    <outline text="DaniTech Blog" 
+             type="rss" 
+             xmlUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/feed/rss.xml"
+             htmlUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/"
+             imageUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/blogicon.png"
+             description="Blog sobre tecnología y cultura geek"/>
   </body>
 </opml>
