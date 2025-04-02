@@ -3,53 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yuuta Okkotsu | DaniTech</title>
+    <title>Yuuta Okkotsu | AnimeDaniGV</title>
     <link rel="stylesheet" href="../../css/styles.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <div id="branding">
-                <h1><a href="../../index.html">DaniTech</a></h1>
-                <p>AnimeDaniGV • Jujutsu Kaisen</p>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="../../index.html">Inicio</a></li>
-                    <li><a href="../index.html">Blog</a></li>
-                    <li><a href="../../podcast/index.html">Podcast</a></li>
-                </ul>
-            </nav>
+        <div class="brand">
+            <h1><a href="../../index.html">DaniTech</a></h1>
+            <p>AnimeDaniGV • Jujutsu Kaisen</p>
         </div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">☰</label>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../index.html">Blog</a></li>
+                <li><a href="../../podcast/index.html">Podcast</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <div class="container">
-        <article>
-            <h1>Yuuta Okkotsu: Poder oculto</h1>
-            <p class="meta">Por DanielGV | Publicado: 25/03/2025</p>
+    <main class="post-container">
+        <article class="full-post">
+            <h1>Yuuta Okkotsu: El poder oculto</h1>
+            <p class="post-meta">Por DanielGV | 25 de marzo, 2025</p>
             
-            <!-- Imagen principal del artículo -->
-            <img src="../images/jujutsu-full.jpeg" alt="Yuuta Okkotsu" class="post-image">
+            <img src="../images/jujutsu-full.jpg" alt="Yuuta Okkotsu" class="featured-image">
             
-            <p>Yuuta Okkotsu es uno de los personajes más interesantes de Jujutsu Kaisen 0, con un desarrollo de poder que lo convierte en uno de los hechiceros más fuertes.</p>
-            
-            <h2>Habilidades clave</h2>
-            
-            <!-- Imagen de habilidad -->
-            <img src="../images/jujutsu-kaisen-thumb.jpg" alt="Habilidad de Yuuta" class="post-image">
-            
-            <ul>
-                <li><strong>Rika:</strong> Espíritu maldito de grado especial</li>
-                <li><strong>Técnica de copia:</strong> Replica habilidades vistas</li>
-            </ul>
-            
-            <h2>Desarrollo del personaje</h2>
-            <p>Yuuta comienza como un personaje frágil emocionalmente, pero evoluciona a lo largo de la historia.</p>
+            <div class="post-content">
+                <p>Yuuta Okkotsu, protagonista de <em>Jujutsu Kaisen 0</em>, es considerado uno de los personajes más poderosos del universo Jujutsu. Su evolución a lo largo de la película lo convierte en un caso de estudio fascinante.</p>
+                
+                <h2>Habilidades principales</h2>
+                <ul class="skills-list">
+                    <li>
+                        <strong>Rika Orimoto:</strong> Espíritu maldito de grado especial que actúa como su aliada.
+                        <img src="../images/rika.jpg" alt="Rika" class="inline-image">
+                    </li>
+                    <li>
+                        <strong>Técnica de Copia:</strong> Puede replicar cualquier técnica que haya visto previamente.
+                    </li>
+                    <li>
+                        <strong>Reserva ilimitada de energía maldita:</strong> Le permite combatir durante largos periodos.
+                    </li>
+                </ul>
+                
+                <h2>Comparativa de poder</h2>
+                <table class="power-table">
+                    <thead>
+                        <tr>
+                            <th>Personaje</th>
+                            <th>Nivel</th>
+                            <th>Habilidad destacada</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Yuuta Okkotsu</td>
+                            <td>Grado especial</td>
+                            <td>Invocación de Rika</td>
+                        </tr>
+                        <tr>
+                            <td>Gojo Satoru</td>
+                            <td>Grado especial+</td>
+                            <td>Infinito</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="conclusion">
+                    <h3>Conclusión</h3>
+                    <p>Yuuta representa un excelente ejemplo de desarrollo de personaje, pasando de ser un estudiante inseguro a uno de los hechiceros más poderosos.</p>
+                </div>
+            </div>
         </article>
-    </div>
+        
+        <section class="related-posts">
+            <h3>Artículos relacionados</h3>
+            <div class="related-grid">
+                <a href="post2.html" class="related-card">
+                    <img src="../images/pokemon-thumb.jpg" alt="Pokémon">
+                    <p>Nuevos Pokémon 2025</p>
+                </a>
+                <a href="post3.html" class="related-card">
+                    <img src="../images/solo-leveling-thumb.jpg" alt="Solo Leveling">
+                    <p>Solo Leveling: Análisis</p>
+                </a>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>© 2025 DaniTech</p>
+        <div class="footer-links">
+            <a href="../../feed/rss.xml" class="rss-btn">
+                <img src="../../images/rss-icon.png" alt="RSS">
+                Suscríbete al Blog
+            </a>
+            <a href="../../feed/podcast.xml" class="podcast-btn">
+                <img src="../../images/podcast-icon.png" alt="Podcast">
+                Podcast RSS
+            </a>
+        </div>
+        <div class="copyright">
+            <p>© 2025 DaniTech</p>
+        </div>
     </footer>
 </body>
 </html>

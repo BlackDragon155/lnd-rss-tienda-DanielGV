@@ -3,50 +3,110 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nuevos Pokémon 2025 | DaniTech</title>
+    <title>Nuevos Pokémon 2025 | AnimeDaniGV</title>
     <link rel="stylesheet" href="../../css/styles.css">
 </head>
 <body>
     <header>
-        <div class="container">
-            <div id="branding">
-                <h1><a href="../../index.html">DaniTech</a></h1>
-                <p>AnimeDaniGV • Pokémon</p>
-            </div>
-            <nav>
-                <ul>
-                    <li><a href="../../index.html">Inicio</a></li>
-                    <li><a href="../index.html">Blog</a></li>
-                    <li><a href="../../podcast/index.html">Podcast</a></li>
-                </ul>
-            </nav>
+        <div class="brand">
+            <h1><a href="../../index.html">DaniTech</a></h1>
+            <p>AnimeDaniGV • Pokémon</p>
         </div>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburger">☰</label>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Inicio</a></li>
+                <li><a href="../index.html">Blog</a></li>
+                <li><a href="../../podcast/index.html">Podcast</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <div class="container">
-        <article>
+    <main class="post-container">
+        <article class="full-post">
             <h1>Nuevos Pokémon 2025: Filtraciones</h1>
-            <p class="meta">Por DanielGV | Publicado: 22/03/2025</p>
+            <p class="post-meta">Por DanielGV | 22 de marzo, 2025</p>
             
-            <!-- Imagen principal del artículo -->
-            <img src="../images/pokemon-full.jpg" alt="Nuevos Pokémon" class="post-image">
+            <img src="../images/pokemon-full.jpg" alt="Nuevos Pokémon" class="featured-image">
             
-            <p>Las filtraciones de la próxima generación Pokémon han comenzado a surgir y aquí analizamos lo más destacado.</p>
-            
-            <h2>Lo que sabemos hasta ahora</h2>
-            
-            <!-- Imagen de starter -->
-            <img src="../images/pokemon-starter.jpg" alt="Nuevo Starter Pokémon" class="post-image">
-            
-            <ul>
-                <li><strong>Starter tipo Dragón:</strong> Primera vez en la saga principal</li>
-                <li><strong>Nueva región:</strong> Basada en las Islas Canarias</li>
-            </ul>
+            <div class="post-content">
+                <p>La próxima generación de Pokémon promete revolucionar la franquicia con novedades importantes. Estas son las filtraciones confirmadas hasta ahora:</p>
+                
+                <h2>Características principales</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <img src="../images/pokemon-starter.jpg" alt="Starter Dragón">
+                        <h3>Starter tipo Dragón</h3>
+                        <p>Primera vez en la saga principal que los starters incluyen este tipo desde el principio.</p>
+                    </div>
+                    
+                    <div class="feature-card">
+                        <img src="../images/pokemon-region.jpg" alt="Nueva región">
+                        <h3>Región inspirada en Canarias</h3>
+                        <p>Ambientada en un archipiélago con ecosistemas volcánicos y marinos.</p>
+                    </div>
+                </div>
+                
+                <h2>Comparativa generacional</h2>
+                <table class="comparison-table">
+                    <thead>
+                        <tr>
+                            <th>Generación</th>
+                            <th>Nuevos Pokémon</th>
+                            <th>Innovación principal</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>IX (Escarlata/Púrpura)</td>
+                            <td>103</td>
+                            <td>Mundo abierto completo</td>
+                        </tr>
+                        <tr>
+                            <td>X (2025)</td>
+                            <td>120+</td>
+                            <td>Combates cooperativos</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <div class="conclusion">
+                    <h3>Opinión personal</h3>
+                    <p>Esta generación podría marcar un antes y después en la franquicia, especialmente con la inclusión de combates en tiempo real.</p>
+                </div>
+            </div>
         </article>
-    </div>
+        
+        <section class="related-posts">
+            <h3>Más sobre anime</h3>
+            <div class="related-grid">
+                <a href="post1.html" class="related-card">
+                    <img src="../images/jujutsu-thumb.jpg" alt="Jujutsu Kaisen">
+                    <p>Yuuta Okkotsu: Análisis</p>
+                </a>
+                <a href="post3.html" class="related-card">
+                    <img src="../images/solo-leveling-thumb.jpg" alt="Solo Leveling">
+                    <p>Solo Leveling: Review</p>
+                </a>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        <p>© 2025 DaniTech</p>
+        <div class="footer-links">
+            <a href="../../feed/rss.xml" class="rss-btn">
+                <img src="../../images/rss-icon.png" alt="RSS">
+                Suscríbete al Blog
+            </a>
+            <a href="../../feed/podcast.xml" class="podcast-btn">
+                <img src="../../images/podcast-icon.png" alt="Podcast">
+                Podcast RSS
+            </a>
+        </div>
+        <div class="copyright">
+            <p>© 2025 DaniTech</p>
+        </div>
     </footer>
 </body>
 </html>

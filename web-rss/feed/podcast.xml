@@ -1,47 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Podcast DaniTech</title>
     <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/</link>
-    <description>Tecnología y anime con DanielGV. Discusiones sobre los últimos avances tecnológicos y análisis de anime.</description>
-    <language>es</language>
+    <description>Conversaciones sobre tecnología, anime y cultura geek</description>
+    <language>es-es</language>
     <copyright>© 2025 DaniTech</copyright>
-    <lastBuildDate>Mon, 25 Mar 2025 12:00:00 GMT</lastBuildDate>
-    <pubDate>Mon, 25 Mar 2025 12:00:00 GMT</pubDate>
-    <ttl>1440</ttl>
     <itunes:author>DanielGV</itunes:author>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <itunes:owner>
-      <itunes:name>DanielGV</itunes:name>
-      <itunes:email>contacto@danitech.example</itunes:email>
-    </itunes:owner>
     <itunes:image href="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcast-cover.jpg"/>
     <itunes:category text="Technology"/>
     <itunes:category text="Leisure"/>
     
     <item>
-      <title>Ep1: Avances en IA 2025</title>
-      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/</link>
-      <description>Analizamos los últimos avances en inteligencia artificial para 2025 y cómo afectarán a la industria tecnológica.</description>
-      <enclosure url="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/episodios/ep1.mp3" type="audio/mpeg" length="5242880"/>
-      <guid isPermaLink="false">danitech-podcast-ep1</guid>
-      <pubDate>Mon, 25 Mar 2025 12:00:00 GMT</pubDate>
-      <itunes:duration>45:00</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
+      <title>Episodio 1: Avances en IA 2025</title>
+      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/#ep1</link>
+      <description>Analizamos las últimas novedades en inteligencia artificial y su impacto en la tecnología.</description>
+      <enclosure url="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/episodios/ep1.mp3" length="38000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">dtech-pod-001</guid>
+      <pubDate>Mon, 25 Mar 2025 18:00:00 GMT</pubDate>
+      <itunes:duration>42:15</itunes:duration>
       <itunes:episode>1</itunes:episode>
+      <itunes:season>1</itunes:season>
     </item>
     
     <item>
-      <title>Ep2: Temporada de Anime 2025</title>
-      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/</link>
-      <description>Repasamos los estrenos más esperados de la temporada de anime de primavera 2025.</description>
-      <enclosure url="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/episodios/ep2.mp3" type="audio/mpeg" length="4194304"/>
-      <guid isPermaLink="false">danitech-podcast-ep2</guid>
-      <pubDate>Mon, 18 Mar 2025 12:00:00 GMT</pubDate>
-      <itunes:duration>38:15</itunes:duration>
-      <itunes:episodeType>full</itunes:episodeType>
+      <title>Episodio 2: Anime Spring 2025</title>
+      <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/#ep2</link>
+      <description>Review de los animes más esperados de la temporada.</description>
+      <enclosure url="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/episodios/ep2.mp3" length="45000000" type="audio/mpeg"/>
+      <guid isPermaLink="false">dtech-pod-002</guid>
+      <pubDate>Mon, 18 Mar 2025 18:00:00 GMT</pubDate>
+      <itunes:duration>48:30</itunes:duration>
       <itunes:episode>2</itunes:episode>
+      <itunes:season>1</itunes:season>
     </item>
   </channel>
 </rss>
