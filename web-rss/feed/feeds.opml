@@ -2,21 +2,24 @@
 <opml version="2.0">
   <head>
     <title>Suscripciones DaniTech</title>
-    <dateCreated>Mon, 25 Mar 2025 12:00:00 GMT</dateCreated>
+    <dateCreated>Mon, 25 Mar 2025 10:00:00 GMT</dateCreated>
     <ownerName>DanielGV</ownerName>
-    <ownerEmail>contacto@danitech.example</ownerEmail>
   </head>
   <body>
-    <outline text="DaniTech Podcast" 
-             title="DaniTech Podcast" 
-             type="rss" 
-             xmlUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/feed/podcast.xml" 
-             htmlUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/"/>
-             
-    <outline text="DaniTech Blog" 
-             title="DaniTech Blog" 
-             type="rss" 
-             xmlUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/feed/rss.xml" 
-             htmlUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog/"/>
+    <outline text="DaniTech Feeds" title="DaniTech">
+      <outline type="rss" 
+               text="Contenido Principal" 
+               title="DaniTech Blog"
+               xmlUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/feed/rss.xml"
+               htmlUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/"
+               description="Tecnología y anime con DanielGV"/>
+               
+      <outline type="rss" 
+               text="Podcast DaniTech" 
+               title="Podcast"
+               xmlUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/feed/podcast.xml"
+               htmlUrl="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/"
+               description="Podcast sobre tecnología y cultura geek"/>
+    </outline>
   </body>
 </opml>

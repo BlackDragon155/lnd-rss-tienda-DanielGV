@@ -1,14 +1,13 @@
-/* Variables de color */
+
 :root {
     --primary: #0a2e52;
     --secondary: #ffd700;
     --accent: #e63946;
     --light: #f8f9fa;
     --dark: #212529;
-    --podcast: #8a2be2; /* Nuevo color para podcast */
+    --podcast: #8a2be2; 
 }
 
-/* Reset y estilos base */
 * {
     margin: 0;
     padding: 0;
@@ -22,7 +21,7 @@ body {
     background-color: var(--light);
 }
 
-/* Header */
+/* Cabecera */
 header {
     background: var(--primary);
     color: white;
@@ -100,7 +99,7 @@ nav.menu ul li a {
     margin-bottom: 0.5rem;
 }
 
-/* Contenido principal */
+/* Index principal */
 main {
     padding: 2rem;
     max-width: 1200px;
@@ -158,7 +157,7 @@ main {
     background: #083061;
 }
 
-/* Estilos para posts */
+/* Estilos para los posts */
 .post-container {
     max-width: 800px;
     margin: 0 auto;
@@ -273,7 +272,7 @@ footer {
     color: rgba(255,255,255,0.7);
 }
 
-/* Responsive */
+/* CSS del Responsive */
 @media (max-width: 768px) {
     .hamburger {
         display: block;
@@ -309,7 +308,7 @@ footer {
     }
 }
 
-/* Estilos específicos para posts */
+/* Estilos específicos para los posts */
 .skills-list li {
     margin-bottom: 1rem;
     padding-left: 1.5rem;
