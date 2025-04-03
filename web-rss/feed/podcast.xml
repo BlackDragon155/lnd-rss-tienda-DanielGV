@@ -18,12 +18,11 @@
     </itunes:owner>
     <itunes:explicit>no</itunes:explicit>
     <itunes:type>episodic</itunes:type>
-    <itunes:image href="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcast.png"/>
+    <itunes:image href="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcasticon.png"/>
     <itunes:category text="Technology"/>
 
-    
     <image>
-      <url>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcast.png</url>
+      <url>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcasticon.png</url>
       <title>Podcast DaniTech</title>
       <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/podcast/</link>
     </image>
@@ -38,7 +37,7 @@
       <itunes:duration>42:15</itunes:duration>
       <itunes:episode>1</itunes:episode>
       <itunes:season>1</itunes:season>
-      <itunes:image href="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcast.png"/>
+      <itunes:image href="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcasticon.png"/>
       <content:encoded><![CDATA[
         <img src="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/podcasticon.png" alt="Portada Episodio 1"/>
         <p>Analizamos las últimas novedades en inteligencia artificial y su impacto en la tecnología.</p>
