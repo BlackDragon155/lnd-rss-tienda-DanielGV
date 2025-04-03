@@ -12,6 +12,18 @@
             <h1><a href="../index.html">DaniTech</a></h1>
             <p>AnimeDaniGV</p>
         </div>
+        <nav>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="index.html">Blog</a></li>
+                <li><a href="../podcast/index.html">Podcast</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main class="blog-container">
@@ -74,5 +86,11 @@
             <p>© 2025 DaniTech | Todos los derechos reservados</p>
         </div>
     </footer>
+
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+    </script>
 </body>
 </html>

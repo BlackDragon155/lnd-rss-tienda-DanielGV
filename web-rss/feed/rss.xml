@@ -2,19 +2,23 @@
 <rss version="2.0" 
      xmlns:atom="http://www.w3.org/2005/Atom"
      xmlns:content="http://purl.org/rss/1.0/modules/content/"
-     xmlns:media="http://search.yahoo.com/mrss/">
+     xmlns:media="http://search.yahoo.com/mrss/"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
-    <title>DaniTech | Tecnología y Anime</title>
+    <title>DaniTech Blog | Tecnología y Anime</title>
     <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/</link>
-    <description>Contenido sobre tecnología, anime y cultura geek</description>
+    <description>Análisis y artículos sobre tecnología, anime y cultura geek</description>
     <language>es-es</language>
     <copyright>© 2025 DaniTech</copyright>
     <atom:link href="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/feed/rss.xml" rel="self" type="application/rss+xml"/>
     
+    <itunes:image href="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/blogicon.png"/>
     <image>
       <url>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/blogicon.png</url>
       <title>DaniTech Blog</title>
       <link>https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/blog</link>
+      <width>144</width>
+      <height>144</height>
     </image>
 
     <item>
@@ -28,6 +32,7 @@
       <media:content url="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/jujutsu-full.jpg" medium="image" type="image/jpeg"/>
       <content:encoded><![CDATA[
         <img src="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/jujutsu-full.jpg" alt="Yuuta Okkotsu" width="800"/>
+        <h3>Yuuta Okkotsu: El poder oculto</h3>
         <p>Análisis detallado del personaje más poderoso de Jujutsu Kaisen 0 y sus habilidades únicas.</p>
       ]]></content:encoded>
     </item>
@@ -43,6 +48,7 @@
       <media:content url="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/pokemon-full.jpg" medium="image" type="image/jpeg"/>
       <content:encoded><![CDATA[
         <img src="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/pokemon-full.jpg" alt="Nuevos Pokémon 2025" width="800"/>
+        <h3>Nuevos Pokémon 2025</h3>
         <p>Toda la información sobre la próxima generación de Pokémon y sus novedades.</p>
       ]]></content:encoded>
     </item>
@@ -58,6 +64,7 @@
       <media:content url="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/solo-leveling-full.jpg" medium="image" type="image/jpeg"/>
       <content:encoded><![CDATA[
         <img src="https://blackdragon155.github.io/lnd-rss-tienda-DanielGV/web-rss/images/solo-leveling-full.jpg" alt="Solo Leveling" width="800"/>
+        <h3>Solo Leveling: Análisis completo</h3>
         <p>Análisis completo de la adaptación animada del popular webtoon coreano.</p>
       ]]></content:encoded>
     </item>
